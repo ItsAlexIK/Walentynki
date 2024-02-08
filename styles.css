@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body {
+    margin: 0;
+    background-color: pink;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form{
+    height: 450px;
+    width: 500px;
+    border-radius: 3%;
+    background-color: #ffafc1;
+    box-shadow: rgba(151, 8, 110, 0.318) 0px 0px 0px 2px,rgba(151, 8, 110, 0.08) 0px 4px 6px -1px, rgba(151, 8, 110, 0.08) 0px 1px 0px inset;
+}
+
+.fimg{
+    width: 30%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question p {
+    color: #bc1397;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    font-size: 33px;
+}
+
+.optionsBtn {
+    display: flex;
+    gap: 30px;
+}
+
+.custom-button {
+    font-family: 'Protest Riot', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #cc0066;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #cc0066;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button:hover {
+    background-color: #99004d;
+    border-color: #99004d;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.gif-container {
+    display: none;
+    max-width: 50%;
+}
